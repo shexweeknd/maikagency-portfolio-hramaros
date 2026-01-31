@@ -1,0 +1,1148 @@
+{
+  "metadata": {
+    "titre": "Banque de Projets Portfolio Fictifs - Edition Complète",
+    "description": "21 projets clients fictifs ultra-détaillés pour portfolio d'entreprise de développement web",
+    "version": "3.0",
+    "date_creation": "2026-01-30",
+    "date_mise_a_jour": "2026-01-31",
+    "total_projets": 22,
+    "colonnes_tier_1": [
+      "stack_technologique",
+      "satisfaction_client",
+      "complexite_technique",
+      "score_lighthouse",
+      "persona_cible",
+      "cas_etude_publie",
+      "canaux_acquisition",
+      "maintenance_contrat"
+    ],
+    "colonnes_tier_2": [
+      "region_client",
+      "heures_reelles",
+      "nombre_pages",
+      "integrations_tierces",
+      "niveau_personnalisation",
+      "defis_rencontres"
+    ],
+    "colonnes_tier_3": [
+      "awards_recus",
+      "taux_rebond",
+      "equipe_assignee",
+      "projet_portfolio_star"
+    ],
+    "total_colonnes": 26
+  },
+  "projets": [
+    {
+      "id": 1,
+      "nom_client": "Atelier Bois Précieux",
+      "secteur_activite": "Artisanat menuiserie",
+      "type_projet": "Site vitrine",
+      "objectif_principal": "Image de marque & visibilité",
+      "budget": "2500€",
+      "delais": "6 semaines",
+      "assets": "Logo + photos existantes",
+      "description": "Mise en valeur du savoir-faire artisanal avec galerie photo immersive",
+      "style_visuel": {
+        "nom": "Rustique élégant",
+        "details": "Tons chauds bois, typographie serif, mise en page aérée"
+      },
+      "metriques_succes": {
+        "kpi1": "+65% demandes de devis en 4 mois",
+        "kpi2": "Position #1 Google local"
+      },
+      "stack_technologique": "WordPress + Elementor + WooCommerce",
+      "satisfaction_client": 5,
+      "complexite_technique": 2,
+      "score_lighthouse": 94,
+      "persona_cible": "Particuliers haut de gamme 40-65 ans recherchant du sur-mesure",
+      "cas_etude_publie": "Oui",
+      "canaux_acquisition": "SEO local + Google Business + Bouche-à-oreille",
+      "maintenance_contrat": "Oui - 80€/mois",
+      "region_client": "Lyon, Auvergne-Rhône-Alpes",
+      "heures_reelles": "68h (estimé: 65h)",
+      "nombre_pages": 12,
+      "integrations_tierces": "Google Maps, Instagram feed, Contact Form",
+      "niveau_personnalisation": "Moyen",
+      "defis_rencontres": "Intégration galerie haute-résolution sans impact performance",
+      "awards_recus": "Aucun",
+      "taux_rebond": "32%",
+      "equipe_assignee": "Marie (Dev) + Thomas (Design)",
+      "projet_portfolio_star": false,
+      "site_reference": {
+        "url": "https://www.nicolaromei.com/",
+        "raison": "Portfolio artisan menuisier italien avec galerie photos immersive haute résolution, tons chauds, typographie élégante serif, animations subtiles - WOTD CSS Design Awards"
+      }
+    },
+    {
+      "id": 2,
+      "nom_client": "Dr. Sophie Martin",
+      "secteur_activite": "Médecine esthétique",
+      "type_projet": "Landing page",
+      "objectif_principal": "Prise de RDV",
+      "budget": "1200€",
+      "delais": "3 semaines",
+      "assets": "Contenu médical fourni",
+      "description": "Page de conversion avec formulaire de contact et témoignages",
+      "style_visuel": {
+        "nom": "Médical luxe",
+        "details": "Blanc/rose poudré, minimaliste, photos avant-après"
+      },
+      "metriques_succes": {
+        "kpi1": "Taux conversion 12%",
+        "kpi2": "+40 RDV/mois"
+      },
+      "stack_technologique": "Next.js + Tailwind CSS + Calendly API",
+      "satisfaction_client": 5,
+      "complexite_technique": 3,
+      "score_lighthouse": 98,
+      "persona_cible": "Femmes 30-55 ans urbaines CSP+",
+      "cas_etude_publie": "Anonyme",
+      "canaux_acquisition": "Google Ads + SEO + Instagram",
+      "maintenance_contrat": "Non",
+      "region_client": "Paris 16ème, Île-de-France",
+      "heures_reelles": "32h (estimé: 35h)",
+      "nombre_pages": 3,
+      "integrations_tierces": "Calendly, Google Analytics, Pixel Meta",
+      "niveau_personnalisation": "Complet",
+      "defis_rencontres": "Conformité RGPD données médicales, optimisation conversion",
+      "awards_recus": "Aucun",
+      "taux_rebond": "18%",
+      "equipe_assignee": "Lucas (Dev Full-stack)",
+      "projet_portfolio_star": true,
+      "site_reference": {
+        "url": "https://enumeramolecular.com/",
+        "raison": "Landing page médicale/biotech minimaliste luxe avec blanc/couleurs pastel subtiles, forte conversion, design épuré moderne - WOTD CSS Design Awards"
+      }
+    },
+    {
+      "id": 3,
+      "nom_client": "Studio Groove",
+      "secteur_activite": "École de danse urbaine",
+      "type_projet": "Site vitrine + Blog",
+      "objectif_principal": "Inscriptions & visibilité",
+      "budget": "3500€",
+      "delais": "8 semaines",
+      "assets": "Vidéos cours + logo",
+      "description": "Site dynamique avec calendrier de cours et inscriptions en ligne",
+      "style_visuel": {
+        "nom": "Urbain dynamique",
+        "details": "Noir/jaune fluo, typographie bold, animations énergiques"
+      },
+      "metriques_succes": {
+        "kpi1": "+85% inscriptions saison",
+        "kpi2": "200 visiteurs/jour"
+      },
+      "stack_technologique": "React + Strapi CMS + Stripe",
+      "satisfaction_client": 5,
+      "complexite_technique": 4,
+      "score_lighthouse": 89,
+      "persona_cible": "Jeunes 16-30 ans passionnés culture urbaine",
+      "cas_etude_publie": "Oui",
+      "canaux_acquisition": "TikTok + Instagram + SEO + Partenariats locaux",
+      "maintenance_contrat": "Oui - 150€/mois",
+      "region_client": "Marseille, Provence-Alpes-Côte d'Azur",
+      "heures_reelles": "95h (estimé: 90h)",
+      "nombre_pages": 18,
+      "integrations_tierces": "Stripe, Mailchimp, YouTube API, Instagram API",
+      "niveau_personnalisation": "Complet",
+      "defis_rencontres": "Intégration paiement récurrent, gestion vidéos lourdes",
+      "awards_recus": "Aucun",
+      "taux_rebond": "28%",
+      "equipe_assignee": "Sophie (Dev React) + Marie (Design) + Alex (Contenu)",
+      "projet_portfolio_star": true,
+      "site_reference": {
+        "url": "https://www.judas.rocks/",
+        "raison": "Site musical/événementiel urbain dynamique avec noir/couleurs vives, vidéos immersives, animations énergiques, design bold typographie forte - WOTD CSS Design Awards"
+      }
+    },
+    {
+      "id": 4,
+      "nom_client": "Alexandre Dupont",
+      "secteur_activite": "Photographe freelance",
+      "type_projet": "Portfolio",
+      "objectif_principal": "Attirer clients haut de gamme",
+      "budget": "2000€",
+      "delais": "4 semaines",
+      "assets": "200+ photos HD",
+      "description": "Portfolio minimaliste avec galerie filtrable par catégorie",
+      "style_visuel": {
+        "nom": "Minimaliste noir",
+        "details": "Full-screen images, transitions fluides, typographie fine"
+      },
+      "metriques_succes": {
+        "kpi1": "+50% demandes mariage haut de gamme",
+        "kpi2": "+3000€ prix moyen"
+      },
+      "stack_technologique": "Webflow + Custom interactions",
+      "satisfaction_client": 5,
+      "complexite_technique": 3,
+      "score_lighthouse": 92,
+      "persona_cible": "Couples mariages luxe + Entreprises corporate",
+      "cas_etude_publie": "Oui",
+      "canaux_acquisition": "Portfolio + Instagram + Recommandations",
+      "maintenance_contrat": "Non",
+      "region_client": "Bordeaux, Nouvelle-Aquitaine",
+      "heures_reelles": "48h (estimé: 50h)",
+      "nombre_pages": 8,
+      "integrations_tierces": "Instagram feed, Lightbox custom, Contact form",
+      "niveau_personnalisation": "Complet",
+      "defis_rencontres": "Chargement ultra-rapide images HD, animations fluides",
+      "awards_recus": "Awwwards Honorable Mention 2025",
+      "taux_rebond": "22%",
+      "equipe_assignee": "Thomas (Dev Webflow) + Marie (UX/UI)",
+      "projet_portfolio_star": true,
+      "site_reference": {
+        "url": "https://www.luca-ravanelli.com/",
+        "raison": "Portfolio photographe minimaliste noir & blanc avec full-screen images, transitions fluides, typographie fine épurée, focus total sur visuels - Awwwards"
+      }
+    },
+    {
+      "id": 5,
+      "nom_client": "TechStart Innovation",
+      "secteur_activite": "Startup SaaS B2B",
+      "type_projet": "Landing page",
+      "objectif_principal": "Leads & démos",
+      "budget": "4000€",
+      "delais": "5 semaines",
+      "assets": "Branding complet",
+      "description": "Page produit moderne avec CTA démo et vidéo explicative",
+      "style_visuel": {
+        "nom": "Tech moderne",
+        "details": "Gradients bleu/violet, glassmorphism, illustrations 3D"
+      },
+      "metriques_succes": {
+        "kpi1": "450 leads qualifiés/mois",
+        "kpi2": "18% taux conversion démo"
+      },
+      "stack_technologique": "React + Framer Motion + HubSpot API",
+      "satisfaction_client": 4,
+      "complexite_technique": 4,
+      "score_lighthouse": 96,
+      "persona_cible": "CTOs + Product Managers entreprises 50-500 employés",
+      "cas_etude_publie": "Oui",
+      "canaux_acquisition": "LinkedIn Ads + Content Marketing + SEO",
+      "maintenance_contrat": "Oui - 200€/mois",
+      "region_client": "Paris La Défense, Île-de-France",
+      "heures_reelles": "88h (estimé: 85h)",
+      "nombre_pages": 6,
+      "integrations_tierces": "HubSpot CRM, Intercom chat, Calendly, Analytics avancées",
+      "niveau_personnalisation": "Complet",
+      "defis_rencontres": "Animations 3D performantes, tracking multi-touch attribution",
+      "awards_recus": "CSS Design Awards - Special Kudos",
+      "taux_rebond": "24%",
+      "equipe_assignee": "Lucas (Dev React) + Julien (Motion Design) + Sophie (Copywriting)",
+      "projet_portfolio_star": true,
+      "site_reference": {
+        "url": "https://www.measured.site/",
+        "raison": "Landing page SaaS B2B moderne avec gradients tech, glassmorphism, animations 3D fluides, design innovant violet/bleu - WOTD CSS Design Awards"
+      }
+    },
+    {
+      "id": 6,
+      "nom_client": "Boulangerie Tradition",
+      "secteur_activite": "Commerce local",
+      "type_projet": "Site vitrine",
+      "objectif_principal": "Commandes en ligne",
+      "budget": "1800€",
+      "delais": "4 semaines",
+      "assets": "Photos produits",
+      "description": "Site avec catalogue produits et formulaire de précommande",
+      "style_visuel": {
+        "nom": "Chaleureux artisanal",
+        "details": "Beige/marron, photos appétissantes, typographie manuscrite"
+      },
+      "metriques_succes": {
+        "kpi1": "+120 précommandes/semaine",
+        "kpi2": "CA digital +25%"
+      },
+      "stack_technologique": "WordPress + WooCommerce + WhatsApp Business",
+      "satisfaction_client": 5,
+      "complexite_technique": 2,
+      "score_lighthouse": 87,
+      "persona_cible": "Locaux 25-65 ans cherchant qualité artisanale",
+      "cas_etude_publie": "Non",
+      "canaux_acquisition": "Google Maps + Facebook local + Flyers QR code",
+      "maintenance_contrat": "Oui - 60€/mois",
+      "region_client": "Annecy, Auvergne-Rhône-Alpes",
+      "heures_reelles": "42h (estimé: 40h)",
+      "nombre_pages": 7,
+      "integrations_tierces": "WhatsApp Business, Google Maps, WooCommerce simple",
+      "niveau_personnalisation": "Léger",
+      "defis_rencontres": "Simplification UX pour clientèle moins tech-savvy",
+      "awards_recus": "Aucun",
+      "taux_rebond": "38%",
+      "equipe_assignee": "Marie (Dev WordPress)",
+      "projet_portfolio_star": false,
+      "site_reference": {
+        "url": "https://www.maisonmastrorelli.com/",
+        "raison": "Site boulangerie artisanale beige/marron chaleureux avec photos appétissantes produits, typographie manuscrite, design artisanal accueillant - Awwwards"
+      }
+    },
+    {
+      "id": 7,
+      "nom_client": "Coach Laure Fitness",
+      "secteur_activite": "Coaching sportif",
+      "type_projet": "Site vitrine + E-commerce",
+      "objectif_principal": "Vente programmes",
+      "budget": "3200€",
+      "delais": "7 semaines",
+      "assets": "Logo + contenu fitness",
+      "description": "Plateforme avec boutique de programmes d'entraînement PDF",
+      "style_visuel": {
+        "nom": "Sportif motivant",
+        "details": "Orange/noir, photos action, design énergique"
+      },
+      "metriques_succes": {
+        "kpi1": "89 programmes vendus/mois",
+        "kpi2": "+15000€ CA en 6 mois"
+      },
+      "stack_technologique": "Shopify + Apps personnalisées + Mailchimp",
+      "satisfaction_client": 5,
+      "complexite_technique": 3,
+      "score_lighthouse": 91,
+      "persona_cible": "Femmes 25-45 ans motivées transformation physique",
+      "cas_etude_publie": "Oui",
+      "canaux_acquisition": "Instagram + YouTube + Email marketing",
+      "maintenance_contrat": "Oui - 120€/mois",
+      "region_client": "Nantes, Pays de la Loire",
+      "heures_reelles": "78h (estimé: 75h)",
+      "nombre_pages": 14,
+      "integrations_tierces": "Stripe, Mailchimp, Instagram API, YouTube embed",
+      "niveau_personnalisation": "Moyen",
+      "defis_rencontres": "Livraison automatisée fichiers digitaux, gestion abonnements",
+      "awards_recus": "Aucun",
+      "taux_rebond": "26%",
+      "equipe_assignee": "Sophie (Dev Shopify) + Thomas (Branding)",
+      "projet_portfolio_star": false,
+      "site_reference": {
+        "url": "https://lightweight.info/en",
+        "raison": "Site sportif énergique orange/noir avec photos action dynamiques, design motivant moderne, boutique intégrée - WOTD CSS Design Awards"
+      }
+    },
+    {
+      "id": 8,
+      "nom_client": "Cabinet Juridique Mercier",
+      "secteur_activite": "Services juridiques",
+      "type_projet": "Site vitrine",
+      "objectif_principal": "Crédibilité & contacts",
+      "budget": "2800€",
+      "delais": "5 semaines",
+      "assets": "Logo existant",
+      "description": "Site professionnel avec présentation équipe et domaines d'expertise",
+      "style_visuel": {
+        "nom": "Corporate sobre",
+        "details": "Bleu marine/or, typographie classique, layout structuré"
+      },
+      "metriques_succes": {
+        "kpi1": "+70% contacts qualifiés",
+        "kpi2": "+30% nouveaux clients"
+      },
+      "stack_technologique": "WordPress + Divi Builder + Formulaires sécurisés",
+      "satisfaction_client": 4,
+      "complexite_technique": 2,
+      "score_lighthouse": 93,
+      "persona_cible": "PME + Particuliers situations juridiques complexes",
+      "cas_etude_publie": "Anonyme",
+      "canaux_acquisition": "SEO + Google Ads + Annuaires professionnels",
+      "maintenance_contrat": "Oui - 100€/mois",
+      "region_client": "Toulouse, Occitanie",
+      "heures_reelles": "58h (estimé: 60h)",
+      "nombre_pages": 15,
+      "integrations_tierces": "Formulaires sécurisés SSL, Google My Business",
+      "niveau_personnalisation": "Moyen",
+      "defis_rencontres": "Sécurité renforcée données sensibles, design sobre mais moderne",
+      "awards_recus": "Aucun",
+      "taux_rebond": "35%",
+      "equipe_assignee": "Marie (Dev) + Lucas (SEO)",
+      "projet_portfolio_star": false,
+      "site_reference": {
+        "url": "https://www.westbournegrammar.com/",
+        "raison": "Site institutionnel corporate sobre bleu marine avec typographie classique, layout structuré professionnel, crédibilité élevée - WOTD CSS Design Awards"
+      }
+    },
+    {
+      "id": 9,
+      "nom_client": "Festival Jazz Riviera",
+      "secteur_activite": "Événementiel culturel",
+      "type_projet": "Landing page événement",
+      "objectif_principal": "Vente billets",
+      "budget": "2500€",
+      "delais": "3 semaines",
+      "assets": "Visuels affiche",
+      "description": "Page événement avec programmation et billetterie intégrée",
+      "style_visuel": {
+        "nom": "Vintage jazz",
+        "details": "Violet/or, Art Déco, illustrations jazz"
+      },
+      "metriques_succes": {
+        "kpi1": "2800 billets vendus (85% capacité)",
+        "kpi2": "SEO événement top 3"
+      },
+      "stack_technologique": "Vue.js + Eventbrite API + Google Analytics",
+      "satisfaction_client": 5,
+      "complexite_technique": 3,
+      "score_lighthouse": 95,
+      "persona_cible": "Mélomanes jazz 35-70 ans + Touristes culture",
+      "cas_etude_publie": "Oui",
+      "canaux_acquisition": "Facebook Events + Partenariats médias + SEO",
+      "maintenance_contrat": "Non",
+      "region_client": "Nice, Provence-Alpes-Côte d'Azur",
+      "heures_reelles": "52h (estimé: 55h)",
+      "nombre_pages": 5,
+      "integrations_tierces": "Eventbrite, Google Analytics, Facebook Pixel, Spotify embed",
+      "niveau_personnalisation": "Complet",
+      "defis_rencontres": "Gestion pics de trafic billetterie, design vintage moderne",
+      "awards_recus": "Aucun",
+      "taux_rebond": "29%",
+      "equipe_assignee": "Thomas (Dev Vue.js) + Sophie (Design graphique)",
+      "projet_portfolio_star": false,
+      "site_reference": {
+        "url": "https://fandomalbum.io/",
+        "raison": "Landing page événement musical violet/or avec design vintage moderne Art Déco, programmation interactive, billetterie fluide - WOTD CSS Design Awards"
+      }
+    },
+    {
+      "id": 10,
+      "nom_client": "Emma Dev",
+      "secteur_activite": "Développeuse freelance",
+      "type_projet": "Portfolio",
+      "objectif_principal": "Missions freelance",
+      "budget": "1500€",
+      "delais": "3 semaines",
+      "assets": "Logo + projets GitHub",
+      "description": "Portfolio tech avec projets, stack technique et blog dev",
+      "style_visuel": {
+        "nom": "Tech geek",
+        "details": "Dark mode, code snippets animés, typographie monospace"
+      },
+      "metriques_succes": {
+        "kpi1": "+12 missions/an",
+        "kpi2": "TJM passé de 350€ à 500€"
+      },
+      "stack_technologique": "Astro + Tailwind + MDX + GitHub API",
+      "satisfaction_client": 5,
+      "complexite_technique": 4,
+      "score_lighthouse": 100,
+      "persona_cible": "Startups + Scale-ups tech cherchant devs séniors",
+      "cas_etude_publie": "Oui",
+      "canaux_acquisition": "GitHub + Dev.to + LinkedIn + Networking",
+      "maintenance_contrat": "Non",
+      "region_client": "Remote (basée à Rennes), Bretagne",
+      "heures_reelles": "38h (estimé: 40h)",
+      "nombre_pages": 6,
+      "integrations_tierces": "GitHub API, Dev.to RSS, Analytics, Dark mode toggle",
+      "niveau_personnalisation": "Complet",
+      "defis_rencontres": "Performance extrême (score 100), code snippets interactifs",
+      "awards_recus": "Dev.to Top Author Badge 2025",
+      "taux_rebond": "19%",
+      "equipe_assignee": "Lucas (Dev Astro) - Solo",
+      "projet_portfolio_star": true,
+      "site_reference": {
+        "url": "https://www.etienneplaneix.com/",
+        "raison": "Portfolio développeur dark mode avec code snippets animés, typographie monospace, performance extrême, design tech geek - Dev SOTD Awwwards"
+      }
+    },
+    {
+      "id": 11,
+      "nom_client": "Green Solutions",
+      "secteur_activite": "Consulting écologique PME",
+      "type_projet": "Site vitrine",
+      "objectif_principal": "Leads B2B",
+      "budget": "3800€",
+      "delais": "6 semaines",
+      "assets": "Branding partiel",
+      "description": "Site corporate avec études de cas et formulaire devis",
+      "style_visuel": {
+        "nom": "Éco-responsable",
+        "details": "Vert/beige naturel, illustrations nature, clean"
+      },
+      "metriques_succes": {
+        "kpi1": "67 demandes audit/an",
+        "kpi2": "+180% CA année 1"
+      },
+      "stack_technologique": "Next.js + Sanity CMS + Carbon tracking",
+      "satisfaction_client": 5,
+      "complexite_technique": 4,
+      "score_lighthouse": 97,
+      "persona_cible": "PME 20-200 employés cherchant transition écologique",
+      "cas_etude_publie": "Oui",
+      "canaux_acquisition": "LinkedIn + SEO + Salons pros + Webinaires",
+      "maintenance_contrat": "Oui - 180€/mois",
+      "region_client": "Grenoble, Auvergne-Rhône-Alpes",
+      "heures_reelles": "92h (estimé: 90h)",
+      "nombre_pages": 20,
+      "integrations_tierces": "Sanity CMS, HubSpot, Carbon calculator API, LinkedIn",
+      "niveau_personnalisation": "Complet",
+      "defis_rencontres": "Site éco-conçu (hosting vert, optimisation CO2), CMS complexe",
+      "awards_recus": "Green Web Award 2025",
+      "taux_rebond": "27%",
+      "equipe_assignee": "Sophie (Dev Next.js) + Marie (Content) + Alex (Eco-design)",
+      "projet_portfolio_star": true,
+      "site_reference": {
+        "url": "https://graffico.it/",
+        "raison": "Site corporate B2B éco-responsable vert/beige naturel avec illustrations nature, design clean moderne, études de cas visuelles - CSS Design Awards Nominee"
+      }
+    },
+    {
+      "id": 12,
+      "nom_client": "Restaurant Le Basilic",
+      "secteur_activite": "Restauration gastronomique",
+      "type_projet": "Site vitrine",
+      "objectif_principal": "Réservations",
+      "budget": "2200€",
+      "delais": "4 semaines",
+      "assets": "Photos plats + logo",
+      "description": "Site élégant avec menu interactif et réservations en ligne",
+      "style_visuel": {
+        "nom": "Gastronomique raffiné",
+        "details": "Noir/doré, photos haute qualité, élégant"
+      },
+      "metriques_succes": {
+        "kpi1": "+45% réservations en ligne",
+        "kpi2": "-60% appels téléphoniques"
+      },
+      "stack_technologique": "WordPress + OpenTable + Google Reserve",
+      "satisfaction_client": 5,
+      "complexite_technique": 2,
+      "score_lighthouse": 88,
+      "persona_cible": "Foodies CSP+ 30-60 ans occasions spéciales",
+      "cas_etude_publie": "Non",
+      "canaux_acquisition": "Google Maps + TheFork + Instagram",
+      "maintenance_contrat": "Oui - 90€/mois",
+      "region_client": "Strasbourg, Grand Est",
+      "heures_reelles": "50h (estimé: 48h)",
+      "nombre_pages": 9,
+      "integrations_tierces": "OpenTable, Google Reserve, Instagram feed, TheFork",
+      "niveau_personnalisation": "Moyen",
+      "defis_rencontres": "Photos gastronomiques optimisées, menu interactif élégant",
+      "awards_recus": "Aucun",
+      "taux_rebond": "31%",
+      "equipe_assignee": "Thomas (Dev) + Sophie (Photographe culinaire)",
+      "projet_portfolio_star": false,
+      "site_reference": {
+        "url": "https://www.abroad-restaurant.com/",
+        "raison": "Site restaurant gastronomique raffiné noir/doré avec photos haute qualité plats, menu interactif élégant, réservations fluides - Awwwards"
+      }
+    },
+    {
+      "id": 13,
+      "nom_client": "Lisa Illustrations",
+      "secteur_activite": "Illustratrice indépendante",
+      "type_projet": "Portfolio",
+      "objectif_principal": "Commandes clients",
+      "budget": "1800€",
+      "delais": "4 semaines",
+      "assets": "50+ illustrations",
+      "description": "Portfolio artistique avec boutique prints et commissions",
+      "style_visuel": {
+        "nom": "Artistique coloré",
+        "details": "Pastel arc-en-ciel, layout créatif, playful"
+      },
+      "metriques_succes": {
+        "kpi1": "+95 commissions/an",
+        "kpi2": "Boutique prints +8000€ CA"
+      },
+      "stack_technologique": "Squarespace + Printful + PayPal",
+      "satisfaction_client": 5,
+      "complexite_technique": 2,
+      "score_lighthouse": 90,
+      "persona_cible": "Créatifs 25-45 ans + Marques cherchant illustrations custom",
+      "cas_etude_publie": "Oui",
+      "canaux_acquisition": "Instagram + Pinterest + Behance + Etsy",
+      "maintenance_contrat": "Non",
+      "region_client": "Montpellier, Occitanie",
+      "heures_reelles": "44h (estimé: 45h)",
+      "nombre_pages": 10,
+      "integrations_tierces": "Printful POD, PayPal, Instagram API, Pinterest",
+      "niveau_personnalisation": "Moyen",
+      "defis_rencontres": "Organisation galerie créative, intégration e-commerce simple",
+      "awards_recus": "Aucun",
+      "taux_rebond": "25%",
+      "equipe_assignee": "Marie (Dev Squarespace) + Lisa (Design collab)",
+      "projet_portfolio_star": false,
+      "site_reference": {
+        "url": "https://www.cathydomergue.com/",
+        "raison": "Portfolio illustratrice coloré pastel avec galerie créative artistique, boutique prints intégrée, layout playful - Awwwards"
+      }
+    },
+    {
+      "id": 14,
+      "nom_client": "TechRepair Pro",
+      "secteur_activite": "Réparation électronique",
+      "type_projet": "Site vitrine",
+      "objectif_principal": "Prise de RDV atelier",
+      "budget": "2000€",
+      "delais": "5 semaines",
+      "assets": "Logo seulement",
+      "description": "Site avec tarifs services et système de prise de RDV",
+      "style_visuel": {
+        "nom": "Tech industriel",
+        "details": "Gris/bleu électrique, icons tech, moderne"
+      },
+      "metriques_succes": {
+        "kpi1": "+55% RDV via site",
+        "kpi2": "+40% réparations premium"
+      },
+      "stack_technologique": "WordPress + Bookly + Google Calendar sync",
+      "satisfaction_client": 4,
+      "complexite_technique": 3,
+      "score_lighthouse": 91,
+      "persona_cible": "Particuliers + Professionnels appareils électroniques",
+      "cas_etude_publie": "Non",
+      "canaux_acquisition": "Google Ads + SEO local + Avis Google",
+      "maintenance_contrat": "Oui - 70€/mois",
+      "region_client": "Lille, Hauts-de-France",
+      "heures_reelles": "55h (estimé: 52h)",
+      "nombre_pages": 11,
+      "integrations_tierces": "Bookly booking, Google Calendar, WhatsApp, Reviews widget",
+      "niveau_personnalisation": "Moyen",
+      "defis_rencontres": "Système réservation créneaux complexe, tarifs dynamiques",
+      "awards_recus": "Aucun",
+      "taux_rebond": "33%",
+      "equipe_assignee": "Lucas (Dev WordPress) + Marie (UX)",
+      "projet_portfolio_star": false,
+      "site_reference": {
+        "url": "https://www.tks.world/",
+        "raison": "Site services tech gris/bleu électrique moderne avec icons tech, tarifs clairs, système booking intégré - CSS Design Awards Nominee"
+      }
+    },
+    {
+      "id": 15,
+      "nom_client": "Institut Bien-Être Zen",
+      "secteur_activite": "Spa & massages",
+      "type_projet": "Site vitrine + Booking",
+      "objectif_principal": "Réservations en ligne",
+      "budget": "3500€",
+      "delais": "6 semaines",
+      "assets": "Photos lieu + logo",
+      "description": "Site relaxant avec présentation soins et réservation créneaux",
+      "style_visuel": {
+        "nom": "Spa zen",
+        "details": "Blanc/vert d'eau, photos apaisantes, fluidité"
+      },
+      "metriques_succes": {
+        "kpi1": "92% réservations online",
+        "kpi2": "+35% clients réguliers"
+      },
+      "stack_technologique": "Webflow + Acuity Scheduling + Stripe",
+      "satisfaction_client": 5,
+      "complexite_technique": 3,
+      "score_lighthouse": 93,
+      "persona_cible": "Femmes 30-60 ans urbaines stress élevé",
+      "cas_etude_publie": "Oui",
+      "canaux_acquisition": "Instagram + Google Ads + Partenariats hôtels",
+      "maintenance_contrat": "Oui - 110€/mois",
+      "region_client": "Aix-en-Provence, Provence-Alpes-Côte d'Azur",
+      "heures_reelles": "72h (estimé: 70h)",
+      "nombre_pages": 13,
+      "integrations_tierces": "Acuity Scheduling, Stripe, Instagram, Google Reviews",
+      "niveau_personnalisation": "Complet",
+      "defis_rencontres": "Ambiance zen via design/animations, système booking multi-services",
+      "awards_recus": "Aucun",
+      "taux_rebond": "23%",
+      "equipe_assignee": "Sophie (Dev Webflow) + Thomas (Design zen)",
+      "projet_portfolio_star": false,
+      "site_reference": {
+        "url": "https://www.antaraspa.com/",
+        "raison": "Site spa zen blanc/vert d'eau avec photos apaisantes, animations fluides relaxantes, booking intégré, ambiance wellness - Awwwards HM"
+      }
+    },
+    {
+      "id": 16,
+      "nom_client": "Formation DevOps Academy",
+      "secteur_activite": "Formation professionnelle",
+      "type_projet": "Landing page + Capture leads",
+      "objectif_principal": "Inscriptions formations",
+      "budget": "2800€",
+      "delais": "4 semaines",
+      "assets": "Contenu pédagogique",
+      "description": "Page avec calendrier sessions et pré-inscriptions",
+      "style_visuel": {
+        "nom": "Éduc-tech",
+        "details": "Bleu/blanc, infographies, badges certifications"
+      },
+      "metriques_succes": {
+        "kpi1": "340 pré-inscrits",
+        "kpi2": "78% taux conversion en inscription payante"
+      },
+      "stack_technologique": "React + Gatsby + Teachable API + HubSpot",
+      "satisfaction_client": 5,
+      "complexite_technique": 4,
+      "score_lighthouse": 96,
+      "persona_cible": "Dev juniors/mid + Reconversion pro tech 25-40 ans",
+      "cas_etude_publie": "Oui",
+      "canaux_acquisition": "LinkedIn Ads + SEO + YouTube + Webinaires gratuits",
+      "maintenance_contrat": "Oui - 150€/mois",
+      "region_client": "Remote (basé Paris), National",
+      "heures_reelles": "75h (estimé: 72h)",
+      "nombre_pages": 16,
+      "integrations_tierces": "Teachable LMS, HubSpot CRM, Stripe, Zoom API, LinkedIn",
+      "niveau_personnalisation": "Complet",
+      "defis_rencontres": "Funnel lead nurturing complexe, intégration LMS externe",
+      "awards_recus": "Aucun",
+      "taux_rebond": "21%",
+      "equipe_assignee": "Lucas (Dev React/Gatsby) + Sophie (Marketing automation)",
+      "projet_portfolio_star": true,
+      "site_reference": {
+        "url": "https://www.hoverair.com/pages/x1-pro-max",
+        "raison": "Landing page formation/tech éduc-tech bleu/blanc avec infographies, badges certifications, calendrier sessions, funnel conversion complexe - Awwwards"
+      }
+    },
+    {
+      "id": 17,
+      "nom_client": "Architecte Léa Dubois",
+      "secteur_activite": "Architecture résidentielle",
+      "type_projet": "Portfolio",
+      "objectif_principal": "Clients particuliers",
+      "budget": "3000€",
+      "delais": "7 semaines",
+      "assets": "Plans + photos projets",
+      "description": "Portfolio architectural avec projets 3D et processus de travail",
+      "style_visuel": {
+        "nom": "Architectural luxe",
+        "details": "Blanc/gris, grandes images, typographie géométrique"
+      },
+      "metriques_succes": {
+        "kpi1": "+80% demandes projets >100k€",
+        "kpi2": "Featured magazines archi"
+      },
+      "stack_technologique": "Webflow + Three.js + Cloudinary",
+      "satisfaction_client": 5,
+      "complexite_technique": 5,
+      "score_lighthouse": 90,
+      "persona_cible": "Propriétaires CSP++ projets architecturaux haut de gamme",
+      "cas_etude_publie": "Oui",
+      "canaux_acquisition": "Instagram + Pinterest + Houzz + Recommandations",
+      "maintenance_contrat": "Oui - 130€/mois",
+      "region_client": "Cannes, Provence-Alpes-Côte d'Azur",
+      "heures_reelles": "102h (estimé: 95h)",
+      "nombre_pages": 22,
+      "integrations_tierces": "Three.js 3D, Cloudinary, Vimeo Pro, Contact form avancé",
+      "niveau_personnalisation": "Complet",
+      "defis_rencontres": "Rendu 3D interactif, portfolio très visuel avec performance",
+      "awards_recus": "Awwwards Site of the Day + CSS Design Awards Winner",
+      "taux_rebond": "17%",
+      "equipe_assignee": "Thomas (Dev Webflow/Three.js) + Sophie (Design) + Alex (3D)",
+      "projet_portfolio_star": true,
+      "site_reference": {
+        "url": "https://www.masonwong.co/",
+        "raison": "Portfolio architecte luxe blanc/gris avec projets 3D interactifs, grandes images architecturales, typographie géométrique, design haut de gamme - Awwwards"
+      }
+    },
+    {
+      "id": 18,
+      "nom_client": "EcoClean Services",
+      "secteur_activite": "Nettoyage écologique",
+      "type_projet": "Site vitrine",
+      "objectif_principal": "Devis en ligne",
+      "budget": "1600€",
+      "delais": "3 semaines",
+      "assets": "Logo + icônes",
+      "description": "Site simple avec services, tarifs et formulaire de devis",
+      "style_visuel": {
+        "nom": "Écolo simple",
+        "details": "Vert/blanc, icons propres, interface claire"
+      },
+      "metriques_succes": {
+        "kpi1": "+150 devis/mois",
+        "kpi2": "Taux transformation 35%"
+      },
+      "stack_technologique": "WordPress + Contact Form 7 + Google Sheets",
+      "satisfaction_client": 4,
+      "complexite_technique": 1,
+      "score_lighthouse": 92,
+      "persona_cible": "Particuliers éco-conscients + PME responsables",
+      "cas_etude_publie": "Non",
+      "canaux_acquisition": "SEO local + Leboncoin + Flyers écologiques",
+      "maintenance_contrat": "Oui - 50€/mois",
+      "region_client": "Rennes, Bretagne",
+      "heures_reelles": "28h (estimé: 30h)",
+      "nombre_pages": 5,
+      "integrations_tierces": "Contact Form 7, Google Sheets, WhatsApp, Google Maps",
+      "niveau_personnalisation": "Léger",
+      "defis_rencontres": "Budget très serré, site simple mais efficace",
+      "awards_recus": "Aucun",
+      "taux_rebond": "41%",
+      "equipe_assignee": "Marie (Dev WordPress) - Solo",
+      "projet_portfolio_star": false,
+      "site_reference": {
+        "url": "https://www.practiceprom.com/",
+        "raison": "Site services locaux vert/blanc simple avec icons propres, interface claire, formulaire devis accessible - Awwwards"
+      }
+    },
+    {
+      "id": 19,
+      "nom_client": "Podcast \"Entrepreneurs\"",
+      "secteur_activite": "Média digital",
+      "type_projet": "Site vitrine + Blog",
+      "objectif_principal": "Audience & sponsors",
+      "budget": "2400€",
+      "delais": "5 semaines",
+      "assets": "Logo + épisodes audio",
+      "description": "Site podcast avec player intégré et articles blog",
+      "style_visuel": {
+        "nom": "Média moderne",
+        "details": "Violet/jaune, player audio intégré, blog lisible"
+      },
+      "metriques_succes": {
+        "kpi1": "15k écoutes/mois, 4 sponsors signés",
+        "kpi2": "+25k abonnés"
+      },
+      "stack_technologique": "WordPress + Podcast plugins + Transistor.fm",
+      "satisfaction_client": 5,
+      "complexite_technique": 3,
+      "score_lighthouse": 94,
+      "persona_cible": "Entrepreneurs 25-45 ans + Porteurs de projets",
+      "cas_etude_publie": "Oui",
+      "canaux_acquisition": "Apple Podcasts + Spotify + LinkedIn + Newsletter",
+      "maintenance_contrat": "Oui - 100€/mois",
+      "region_client": "Remote (basé Lyon), National",
+      "heures_reelles": "62h (estimé: 60h)",
+      "nombre_pages": 19,
+      "integrations_tierces": "Transistor.fm, Mailchimp, Spotify embed, Apple Podcasts",
+      "niveau_personnalisation": "Moyen",
+      "defis_rencontres": "Player audio custom, transcriptions automatiques SEO",
+      "awards_recus": "Aucun",
+      "taux_rebond": "30%",
+      "equipe_assignee": "Lucas (Dev WordPress) + Sophie (Content SEO)",
+      "projet_portfolio_star": false,
+      "site_reference": {
+        "url": "https://emergencemagazine.org/",
+        "raison": "Site média/podcast violet/jaune moderne avec player audio intégré, blog lisible, design éditorial engageant - Siteinspire Featured"
+      }
+    },
+    {
+      "id": 20,
+      "nom_client": "Garage Mécanique Expert",
+      "secteur_activite": "Mécanique automobile",
+      "type_projet": "Site vitrine",
+      "objectif_principal": "Visibilité locale",
+      "budget": "1900€",
+      "delais": "4 semaines",
+      "assets": "Photos atelier",
+      "description": "Site avec services, horaires et formulaire de contact",
+      "style_visuel": {
+        "nom": "Garage pro",
+        "details": "Rouge/noir, photos atelier, badges certif"
+      },
+      "metriques_succes": {
+        "kpi1": "#1 Google Maps local",
+        "kpi2": "+60% demandes entretien"
+      },
+      "stack_technologique": "WordPress + Local SEO plugins + WhatsApp widget",
+      "satisfaction_client": 4,
+      "complexite_technique": 2,
+      "score_lighthouse": 86,
+      "persona_cible": "Automobilistes locaux + Flottes petites entreprises",
+      "cas_etude_publie": "Non",
+      "canaux_acquisition": "Google Maps + Avis clients + SEO local",
+      "maintenance_contrat": "Oui - 65€/mois",
+      "region_client": "Tours, Centre-Val de Loire",
+      "heures_reelles": "46h (estimé: 45h)",
+      "nombre_pages": 8,
+      "integrations_tierces": "WhatsApp widget, Google My Business, Reviews display",
+      "niveau_personnalisation": "Léger",
+      "defis_rencontres": "Optimisation SEO local agressive, trust signals",
+      "awards_recus": "Aucun",
+      "taux_rebond": "36%",
+      "equipe_assignee": "Thomas (Dev) + Lucas (SEO local)",
+      "projet_portfolio_star": false,
+      "site_reference": {
+        "url": "https://milez.jp/",
+        "raison": "Site services automobile rouge/noir industriel avec photos atelier pro, badges certifications, SEO local optimisé - WOTD CSS Design Awards"
+      }
+    },
+    {
+      "id": 21,
+      "nom_client": "Wedding Planner Élégance",
+      "secteur_activite": "Organisation mariages",
+      "type_projet": "Portfolio + Blog",
+      "objectif_principal": "Réservations clients",
+      "budget": "3200€",
+      "delais": "6 semaines",
+      "assets": "Photos mariages + logo",
+      "description": "Portfolio luxueux avec galerie, témoignages et blog inspiration",
+      "style_visuel": {
+        "nom": "Mariage luxe",
+        "details": "Rose gold/blanc, photos émotionnelles, romantique"
+      },
+      "metriques_succes": {
+        "kpi1": "+45 mariages/an",
+        "kpi2": "Prix moyen 8500€, 100% via site"
+      },
+      "stack_technologique": "Squarespace + Acuity + Instagram feed",
+      "satisfaction_client": 5,
+      "complexite_technique": 2,
+      "score_lighthouse": 91,
+      "persona_cible": "Futurs mariés CSP+ recherchant organisation haut de gamme",
+      "cas_etude_publie": "Oui",
+      "canaux_acquisition": "Instagram + Pinterest + Salons mariage + Bouche-à-oreille",
+      "maintenance_contrat": "Oui - 95€/mois",
+      "region_client": "Versailles, Île-de-France",
+      "heures_reelles": "68h (estimé: 65h)",
+      "nombre_pages": 17,
+      "integrations_tierces": "Acuity booking, Instagram feed, Pinterest boards, Vimeo",
+      "niveau_personnalisation": "Complet",
+      "defis_rencontres": "Galerie émotionnelle sophistiquée, formulaire lead détaillé",
+      "awards_recus": "Best Wedding Website 2025 - Mariages.net",
+      "taux_rebond": "20%",
+      "equipe_assignee": "Sophie (Dev Squarespace) + Marie (Design luxe) + Alex (Photo)",
+      "projet_portfolio_star": true,
+      "site_reference": {
+        "url": "https://fooror.com/",
+        "raison": "Portfolio wedding/event design rose gold/blanc luxe avec galerie photos émotionnelles, témoignages, design romantique raffiné - Awwwards"
+      }
+    },
+    {
+      "id": 22,
+      "nom_client": "Herinambinintsoa RAMAROSANDRATANA (hramaros)",
+      "secteur_activite": "Développement logiciel & Intelligence Artificielle",
+      "type_projet": "Portfolio personnel storytelling",
+      "objectif_principal": "Personal branding & opportunités professionnelles internationales",
+      "budget": "3800€",
+      "delais": "7 semaines",
+      "assets": "CV complet + projets GitHub (shexweeknd) + certifications vérifiables + photos professionnelles hramaros (background coloré studio + détouré sans background) + mockups haute résolution projets + screenshots interfaces + photos hackathons ambiance",
+      "description": "Portfolio immersif racontant le parcours d'un développeur passionné de Madagascar vers l'excellence technique internationale à travers un storytelling visuel puissant. Du Baccalauréat scientifique au Colibri jusqu'à la 1ère cohorte de 42 Antananarivo, chaque section utilise des portraits photographiques authentiques de hramaros (avec backgrounds colorés studio et versions détourées pour dynamisme visuel) qui créent une connexion humaine immédiate. Le parcours dévoile une facette de ce profil polyvalent : résolution créative de problèmes, maîtrise des technologies modernes (IA, LLM, Docker, Full Stack), et leadership technique au sein de la communauté TechZara. Le storytelling met en lumière la philosophie centrale : 'Passionné d'informatique, je transforme les défis en solutions concrètes et durables pour créer de la valeur rapidement' — illustrée par des études de cas visuelles avec mockups professionnels et screenshots d'interfaces : l'Agent IA DigitAgro (gestion de serres agricoles) récompensé par WorldSkills, le jeu FANORONA lauréat du Hackathon Independence Day préservant le patrimoine culturel malgache, et l'application d'accompagnement des retraités français développée chez Exxomad. Les images de background subtiles (effet parallax) accompagnent certaines sections clés pour renforcer l'immersion narrative.",
+      "style_visuel": {
+        "nom": "Tech storytelling moderne visuel",
+        "details": "Dark mode élégant avec accents néon subtils (bleu électrique #0066FF / violet #8B5CF6), animations scroll-triggered fluides, timeline interactive verticale avec photos personnelles détourées intégrées, code snippets avec syntax highlighting, effet terminal ASCII pour les skills techniques, micro-interactions hover states, glassmorphism cards, backgrounds images parallax subtils (sections About & Timeline), portraits professionnels avec effet de profondeur (foreground détouré + background coloré studio), mockups projets en haute résolution avec ombres réalistes"
+      },
+      "metriques_succes": {
+        "kpi1": "Portfolio cité dans 5+ articles tech malgaches et francophones",
+        "kpi2": "+20 opportunités de collaboration en 3 mois",
+        "kpi3": "Temps moyen sur page: 4min 30s",
+        "kpi4": "Taux de conversion contact: 8%",
+        "kpi5": "Score accessibilité WCAG AA: 100%",
+        "kpi6": "Core Web Vitals parfaits: LCP < 1.5s, FID < 50ms, CLS < 0.05",
+        "kpi7": "Time to Interactive (TTI) < 2.5s sur 4G",
+        "kpi8": "Bundle JavaScript initial < 100KB gzipped"
+      },
+      "stack_technologique": "Next.js 14 (App Router + Server Components) + TypeScript + Tailwind CSS + Framer Motion + Three.js (hero 3D optimisé) + MDX Blog + Vercel Analytics + Sharp (optimisation images) + next/font (Google Fonts local) + Turbopack",
+      "satisfaction_client": 5,
+      "complexite_technique": 5,
+      "score_lighthouse": 100,
+      "persona_cible": "Recruteurs tech internationaux, startups IA/LLM, communauté open source, entreprises françaises cherchant talents offshore, réseau 42 Network mondial",
+      "cas_etude_publie": "Oui - Featured + Case Study détaillé",
+      "canaux_acquisition": "LinkedIn + GitHub (shexweeknd) + Dev.to + Twitter/X Tech + Communauté 42 Network + Malt/Freelance platforms",
+      "maintenance_contrat": "Oui - 120€/mois (blog + projets updates + analytics reports)",
+      "region_client": "Antananarivo, Madagascar (rayonnement international francophone + anglophone)",
+      "heures_reelles": "112h (estimé: 100h)",
+      "nombre_pages": 9,
+      "integrations_tierces": "GitHub API (contributions live @shexweeknd), LinkedIn badge, Calendly (booking calls), HackerRank badges API vérifiables, Vercel Analytics, Dark/Light mode toggle, Schema.org structured data, Open Graph meta",
+      "niveau_personnalisation": "Ultra-complet",
+      "defis_rencontres": "Narration fluide entre parcours académique atypique et excellence technique autodidacte, intégration animations 3D performantes (< 2.5s TTI via lazy loading Three.js), multilinguisme complet (FR/EN/MG) avec i18n optimisé, accessibilité WCAG AA niveau AAA sur sections critiques, SEO technique pour personal branding. Optimisations performance extrême : images Next.js avec Sharp (WebP/AVIF), fonts locales (next/font), code splitting agressif, Server Components pour 0-JS initial, prefetch intelligent, compression Brotli, CDN edge caching Vercel, lazy hydration composants interactifs, React Suspense boundaries stratégiques, CSS critical inlined, unused CSS purged via PurgeCSS, animations GPU-accelerated (transform/opacity only), Three.js chunked (< 50KB initial), debounced scroll events, IntersectionObserver pour animations, Service Worker pour offline-first",
+      "awards_recus": "Nominé Awwwards Honorable Mention 2026, CSS Design Awards Site of the Day",
+      "taux_rebond": "12%",
+      "equipe_assignee": "Lucas (Dev Lead Next.js) + Marie (UX Storytelling) + Thomas (3D/Motion) + hramaros (Content & Review & QA)",
+      "projet_portfolio_star": true,
+      "site_reference": {
+        "url": "https://wearestokt.com/",
+        "raison": "Portfolio storytelling immersif dark mode avec animations 3D Three.js, scroll-triggered fluide, timeline interactive, photos personnelles intégrées, glassmorphism, performance extrême - WOTD CSS Design Awards + Awwwards"
+      },
+      "informations_client": {
+        "nom_complet": "RAMAROSANDRATANA Herinambinintsoa Nantenaina",
+        "titre_professionnel": "Développeur IA LLM",
+        "localisation": "Antananarivo, Madagascar",
+        "contact": {
+          "email": "ramarosandratananantenaina@gmail.com",
+          "telephone": "+261 34 85 419 94",
+          "github": "https://github.com/shexweeknd"
+        },
+        "langues": {
+          "malgache": "Langue maternelle",
+          "francais": "Courant (DELF B2 certifié)",
+          "anglais": "Professionnel"
+        },
+        "philosophie": "Passionné d'informatique, je transforme les défis en solutions concrètes et durables pour créer de la valeur rapidement."
+      },
+      "sections_portfolio": {
+        "hero": {
+          "description": "Animation 3D interactive avec particules de code flottantes + portrait professionnel hramaros détouré intégré à la scène 3D",
+          "tagline_principal": "Du code aux solutions, de Madagascar au monde",
+          "tagline_secondaire": "Développeur IA LLM | Full Stack | Problem Solver",
+          "cta_principal": "Découvrir mon parcours",
+          "cta_secondaire": "Me contacter",
+          "elements_visuels": "Portrait hramaros détouré (sans background) avec effet flottant, particules code animées, gradient néon background"
+        },
+        "about": {
+          "description": "Storytelling immersif en 3 actes avec photos personnelles authentiques",
+          "acte_1": "Les fondations (2018-2019) : DELF B2 à l'Alliance Française, Baccalauréat scientifique au Colibri Sabotsy-Namehana",
+          "acte_2": "L'éveil technique (2020-2023) : Licence EIT à l'École polytechnique d'Antsiranana, Leadership TechZara Association",
+          "acte_3": "L'excellence (2024-2026) : Hackathons remportés, Exxomad Full Stack, 42 Antananarivo 1ère cohorte",
+          "elements_visuels": "Photo portrait hramaros background coloré studio intégrée à la section (position : côté droit, effet parallax léger), background subtil avec motif géométrique code, alternance texte + image pour fluidité narrative"
+        },
+        "skills": {
+          "techniques": [
+            {"nom": "Python", "niveau": 90, "contexte": "IA, LLM, Scripts"},
+            {"nom": "C/C++", "niveau": 85, "contexte": "42, Algorithmique"},
+            {"nom": "JavaScript", "niveau": 85, "contexte": "Full Stack Web"},
+            {"nom": "PHP", "niveau": 75, "contexte": "Backend Web"},
+            {"nom": "SQL", "niveau": 90, "contexte": "Certifié Advanced HackerRank"},
+            {"nom": "Docker", "niveau": 80, "contexte": "Conteneurisation, DevOps"},
+            {"nom": "Linux", "niveau": 85, "contexte": "Environnement principal"},
+            {"nom": "N8N", "niveau": 80, "contexte": "Automatisation workflows"},
+            {"nom": "Web Scraping", "niveau": 85, "contexte": "Data extraction"},
+            {"nom": "Design Patterns", "niveau": 75, "contexte": "Architecture clean"},
+            {"nom": "Agentic Coding", "niveau": 90, "contexte": "Agents IA autonomes"},
+            {"nom": "LLM Development", "niveau": 85, "contexte": "Fine-tuning, RAG, Prompting"}
+          ],
+          "soft": [
+            {"nom": "Design Thinking", "illustration": "Approche centrée utilisateur dans tous les projets"},
+            {"nom": "Leadership communautaire", "illustration": "Responsable TechZara Antsiranana, ateliers et conférences"},
+            {"nom": "Problem Solving créatif", "illustration": "3 hackathons, solutions innovantes sous pression"},
+            {"nom": "Communication trilingue", "illustration": "MG natif, FR B2 certifié, EN professionnel"},
+            {"nom": "Mentorat technique", "illustration": "Animation vie campus, transmission de connaissances"}
+          ]
+        },
+        "projets_highlights": [
+          {
+            "nom": "Agent IA DigitAgro",
+            "contexte": "WorldSkills France - Hackathon DigitAgro 2025",
+            "organisateurs": "Simplon SUD & WorldSkills",
+            "impact": "Coup de cœur du Jury - Solution IA pour aider les petits agriculteurs dans la gestion de leurs serres",
+            "tech": ["Python", "LLM", "N8N", "API REST"],
+            "demonstration": "Mockup interface utilisateur + screenshots dashboard + schéma architecture IA + photo équipe hackathon",
+            "apprentissages": "Design d'agents autonomes, intégration IoT simulée",
+            "elements_visuels": "Mockup MacBook Pro avec interface DigitAgro, screenshots mobile responsive, diagramme flow agent IA"
+          },
+          {
+            "nom": "FANORONA Digital",
+            "contexte": "Independence Day Hackathon 2024",
+            "organisateurs": "Yas Madagascar & 42 Antananarivo",
+            "impact": "1er Prix - Préservation du patrimoine culturel malgache par le numérique",
+            "tech": ["C", "Algorithmique avancée", "Interface console"],
+            "demonstration": "Screenshots terminal gameplay + schéma algorithme minimax + photo trophée 1er prix + mockup documentation",
+            "apprentissages": "Optimisation performance, game theory, fierté culturelle",
+            "elements_visuels": "Terminal retro-style avec jeu FANORONA, photo ambiance hackathon avec trophée, diagramme technique algorithme"
+          },
+          {
+            "nom": "Plateforme Retraités France",
+            "contexte": "Exxomad Madagascar 2024 - Développeur Full Stack",
+            "impact": "Application web en production accompagnant les retraités en France",
+            "tech": ["JavaScript", "PHP", "SQL", "API REST"],
+            "demonstration": "Mockups interfaces desktop & mobile (anonymisées) + screenshots fonctionnalités clés + architecture technique",
+            "apprentissages": "Développement production, UX seniors, RGPD",
+            "elements_visuels": "Mockup multi-devices (desktop + tablet + mobile), screenshots interfaces utilisateur anonymisées, schéma architecture backend"
+          }
+        ],
+        "certifications": [
+          {
+            "nom": "Software Engineer Intern Certificate",
+            "organisme": "HackerRank",
+            "annee": 2025,
+            "id_verification": "07dd1b14a05a",
+            "url_verification": "https://www.hackerrank.com/certificates/07dd1b14a05a"
+          },
+          {
+            "nom": "SQL (Advanced) Certificate",
+            "organisme": "HackerRank",
+            "annee": 2025,
+            "id_verification": "13b02aae5aeb",
+            "url_verification": "https://www.hackerrank.com/certificates/13b02aae5aeb"
+          },
+          {
+            "nom": "DELF B2 - Diplôme d'études en langue française",
+            "organisme": "Alliance Française d'Antananarivo",
+            "annee": 2018,
+            "niveau": "B2 (Utilisateur indépendant avancé)"
+          }
+        ],
+        "timeline": {
+          "description": "Parcours interactif de 2018 à 2026 avec milestones clés animés et photos personnelles chronologiques",
+          "milestones": [
+            {"annee": 2018, "evenement": "DELF B2 - Alliance Française d'Antananarivo", "type": "certification"},
+            {"annee": 2019, "evenement": "Baccalauréat scientifique - Le Colibri Sabotsy-Namehana", "type": "diplome"},
+            {"annee": 2023, "evenement": "Licence EIT - École polytechnique d'Antsiranana", "type": "diplome"},
+            {"annee": 2023, "evenement": "Responsable TechZara Association Antsiranana", "type": "leadership"},
+            {"annee": 2024, "evenement": "1er Prix - Independence Day Hackathon (FANORONA)", "type": "award"},
+            {"annee": 2024, "evenement": "Développeur Full Stack - Exxomad Madagascar", "type": "experience"},
+            {"annee": 2025, "evenement": "Coup de cœur Jury - WorldSkills DigitAgro", "type": "award"},
+            {"annee": 2025, "evenement": "Student 1ère Cohorte - 42 Antananarivo", "type": "formation"},
+            {"annee": 2025, "evenement": "Certifications HackerRank (SQL Advanced + Software Engineer)", "type": "certification"}
+          ],
+          "elements_visuels": "Background image parallax subtil (motif code/tech), photos miniatures hramaros aux milestones clés (hackathons, TechZara, 42), badges certifications, icônes timeline animées"
+        },
+        "temoignages": {
+          "description": "Recommandations de mentors 42 et partenaires hackathons",
+          "format": "Citations avec photo, nom, titre, lien LinkedIn",
+          "elements_visuels": "Photos mentors/témoins en arrondis, design cards épurées"
+        },
+        "blog": {
+          "description": "Articles techniques en MDX",
+          "categories": ["IA & LLM", "Astuces 42", "Retours d'expérience hackathons", "Tutoriels techniques"],
+          "elements_visuels": "Images cover articles, photo auteur hramaros miniature, previews visuelles"
+        },
+        "contact": {
+          "formulaire": "Champs : Nom, Email, Sujet, Message + validation côté client",
+          "calendly": "Booking 30min discovery call",
+          "reseaux": [
+            {"nom": "GitHub", "url": "https://github.com/shexweeknd", "animation": "Hover reveal contributions"},
+            {"nom": "LinkedIn", "url": "À compléter", "animation": "Badge dynamique"},
+            {"nom": "Email", "url": "mailto:ramarosandratananantenaina@gmail.com", "animation": "Copy to clipboard"}
+          ],
+          "localisation": "Antananarivo, Madagascar (GMT+3)"
+        }
+      },
+      "seo_personal_branding": {
+        "meta_title": "Herinambinintsoa RAMAROSANDRATANA | Développeur IA LLM | Madagascar",
+        "meta_description": "Portfolio de hramaros - Développeur passionné spécialisé en IA, LLM et Full Stack. Lauréat hackathons, étudiant 42 Antananarivo. Transforme les défis en solutions.",
+        "keywords": ["développeur IA Madagascar", "LLM developer", "42 Antananarivo", "Full Stack developer", "hramaros", "RAMAROSANDRATANA"],
+        "schema_person": true,
+        "open_graph": true
+      },
+      "accessibilite": {
+        "niveau_cible": "WCAG 2.1 AA",
+        "features": ["Navigation clavier complète", "ARIA labels", "Contraste 4.5:1 minimum", "Textes alternatifs images", "Focus visible", "Skip to content", "Réduction mouvement (prefers-reduced-motion)"]
+      },
+      "optimisations_performance": {
+        "images": {
+          "format": "WebP avec fallback AVIF, lazy loading natif, responsive srcset",
+          "compression": "Sharp avec qualité 85%, dimensions adaptatives",
+          "portraits_hramaros": "3 tailles (mobile/tablet/desktop), détourage optimisé PNG-8 avec alpha"
+        },
+        "javascript": {
+          "strategie": "Server Components par défaut, Client Components uniquement pour interactivité",
+          "code_splitting": "Route-based + component-based dynamique, Three.js chargé après hero visible",
+          "bundle_size": "Initial < 100KB, total < 300KB, tree-shaking agressif"
+        },
+        "css": {
+          "strategie": "Tailwind JIT, PurgeCSS production, critical CSS inline",
+          "animations": "GPU-accelerated uniquement (transform, opacity), will-change stratégique"
+        },
+        "fonts": {
+          "strategie": "next/font avec preload, subset Latin étendu, font-display: swap",
+          "formats": "WOFF2 uniquement, fallback system fonts"
+        },
+        "caching": {
+          "strategie": "Vercel Edge Network, stale-while-revalidate ISR, immutable assets",
+          "service_worker": "Workbox pour cache stratégies, offline fallback"
+        },
+        "core_web_vitals": {
+          "lcp": "< 1.2s (hero image optimisée + preload)",
+          "fid": "< 30ms (minimal JavaScript initial)",
+          "cls": "< 0.02 (aspect ratios définis, no layout shifts)",
+          "ttfb": "< 400ms (Edge Functions Vercel)",
+          "tti": "< 2.3s (progressive enhancement)"
+        },
+        "monitoring": {
+          "outils": "Vercel Analytics, Web Vitals API, Lighthouse CI dans pipeline",
+          "seuils_alerte": "LCP > 2s, FID > 100ms, CLS > 0.1 → rollback automatique"
+        }
+      }
+    }
+  ],
+  "statistiques": {
+    "budget_moyen": "2536€",
+    "budget_min": "1200€",
+    "budget_max": "4000€",
+    "delai_moyen": "5.0 semaines",
+    "types_projets": {
+      "site_vitrine": 11,
+      "portfolio": 6,
+      "landing_page": 3,
+      "site_vitrine_plus": 2
+    },
+    "secteurs_couverts": 22
+  }
+}
