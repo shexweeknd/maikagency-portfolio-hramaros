@@ -1,0 +1,8 @@
+# Robots.txt for hramaros Portfolio
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://hramaros.dev/sitemap.xml
+
+# Disallow admin or private paths (none currently)
