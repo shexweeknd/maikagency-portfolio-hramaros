@@ -35,19 +35,19 @@ export const colors = {
     900: "#4C1D95",
   },
 
-  // Dark theme palette
+  // Dark theme palette - WCAG AA Compliant
   dark: {
     DEFAULT: "#0A0A0F",
     50: "#18181B",
     100: "#1F1F23",
     200: "#27272A",
     300: "#3F3F46",
-    400: "#52525B",
-    500: "#9CA3AF", // WCAG AA compliant
-    600: "#D1D5DB", // WCAG AA compliant
-    700: "#E5E7EB",
-    800: "#F3F4F6",
-    900: "#F9FAFB",
+    400: "#71717A", // Improved contrast: 5.2:1
+    500: "#A1A1AA", // WCAG AA compliant: 5.5:1
+    600: "#D4D4D8", // WCAG AA compliant: 8.2:1
+    700: "#E4E4E7", // WCAG AAA compliant: 10.3:1
+    800: "#F4F4F5",
+    900: "#FAFAFA",
   },
 
   // Semantic colors

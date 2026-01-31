@@ -65,21 +65,6 @@ function ProjectCard({
             color={projectColors[project.id] || "#0066FF"}
             className="shadow-2xl"
           />
-
-          {/* Featured badge */}
-          {project.featured && (
-            <motion.div 
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              transition={{ delay: 0.5, type: "spring" }}
-              className="absolute -top-3 -right-3 z-20"
-            >
-              <span className="inline-flex items-center gap-1 px-3 py-1.5 rounded-full bg-gradient-to-r from-accent-500 to-pink-500 text-white text-xs font-bold shadow-lg shadow-accent-500/30">
-                <Award className="w-3 h-3" />
-                Featured
-              </span>
-            </motion.div>
-          )}
         </motion.div>
       </motion.div>
 
@@ -145,7 +130,7 @@ function ProjectCard({
           <div className="mb-6 flex items-start gap-2">
             <Lightbulb className="w-4 h-4 text-accent-400 flex-shrink-0 mt-1" aria-hidden="true" />
             <div>
-              <p className="text-dark-500 text-xs mb-1 font-medium uppercase tracking-wide">Apprentissages</p>
+              <p className="text-dark-600 text-xs mb-1 font-medium uppercase tracking-wide">Apprentissages</p>
               <p className="text-dark-600 text-sm leading-relaxed">{project.learnings}</p>
             </div>
           </div>
@@ -223,9 +208,6 @@ export function Projects() {
           viewport={{ once: true }}
           className="text-center mt-20"
         >
-          <p className="text-dark-600 mb-4">
-            Explorez plus de projets sur mon GitHub
-          </p>
           <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
             <Button variant="secondary" className="group">
               <Github className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform" aria-hidden="true" />

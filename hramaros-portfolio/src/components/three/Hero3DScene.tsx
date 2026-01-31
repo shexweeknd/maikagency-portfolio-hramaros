@@ -93,19 +93,47 @@ function GlowingSphere() {
   );
 }
 
+// Static fallback component for users who prefer reduced motion
+function StaticBackground() {
+  return (
+    <div className="absolute inset-0 -z-10 reduced-motion-fallback hidden">
+      {/* Subtle gradient background */}
+      <div 
+        className="absolute inset-0"
+        style={{
+          background: `
+            radial-gradient(circle at 30% 20%, rgba(0, 102, 255, 0.15) 0%, transparent 50%),
+            radial-gradient(circle at 70% 80%, rgba(139, 92, 246, 0.1) 0%, transparent 50%),
+            #0A0A0F
+          `,
+        }}
+      />
+      {/* Static decorative elements */}
+      <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary-500/5 rounded-full blur-3xl" />
+      <div className="absolute bottom-1/4 right-1/4 w-48 h-48 bg-accent-500/5 rounded-full blur-3xl" />
+    </div>
+  );
+}
+
 export function Hero3DScene() {
   return (
-    <div className="absolute inset-0 -z-10">
-      <Canvas
-        camera={{ position: [0, 0, 5], fov: 60 }}
-        gl={{ antialias: true, alpha: true }}
-        dpr={[1, 2]}
-      >
-        <ambientLight intensity={0.5} />
-        <ParticleField />
-        <FloatingCode />
-        <GlowingSphere />
-      </Canvas>
-    </div>
+    <>
+      {/* Static fallback for reduced motion */}
+      <StaticBackground />
+      
+      {/* 3D animated scene - hidden when prefers-reduced-motion */}
+      <div className="absolute inset-0 -z-10 hero-3d-scene three-scene-container">
+        <Canvas
+          camera={{ position: [0, 0, 5], fov: 60 }}
+          gl={{ antialias: true, alpha: true }}
+          dpr={[1, 2]}
+        >
+          <ambientLight intensity={0.5} />
+          <ParticleField />
+          <FloatingCode />
+          <GlowingSphere />
+        </Canvas>
+      </div>
+    </>
   );
 }

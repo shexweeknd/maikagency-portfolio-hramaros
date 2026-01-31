@@ -130,12 +130,13 @@ export function Contact() {
                       <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary-500/20 to-accent-500/20 flex items-center justify-center flex-shrink-0">
                         <info.icon className="w-5 h-5 text-primary-400" />
                       </div>
-                      <div>
+                      <div className="min-w-0 flex-1">
                         <p className="text-dark-500 text-sm">{info.label}</p>
                         {info.href ? (
                           <a
                             href={info.href}
-                            className="text-white hover:text-primary-400 transition-colors font-medium"
+                            className="text-white hover:text-primary-400 transition-colors font-medium break-all text-sm sm:text-base"
+                            title={info.value}
                           >
                             {info.value}
                           </a>

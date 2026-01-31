@@ -2,6 +2,7 @@ import dynamic from "next/dynamic";
 import { Suspense } from "react";
 import { Navbar, Footer } from "@/components/layout";
 import { Hero } from "@/components/sections";
+import { BackToTop } from "@/components/ui";
 
 // Skeleton loading component
 function SectionSkeleton() {
@@ -52,6 +53,11 @@ const Certifications = dynamic(
   { loading: () => <SectionSkeleton />, ssr: true }
 );
 
+const BlogPreview = dynamic(
+  () => import("@/components/sections").then((mod) => ({ default: mod.BlogPreview })),
+  { loading: () => <SectionSkeleton />, ssr: true }
+);
+
 const Contact = dynamic(
   () => import("@/components/sections").then((mod) => ({ default: mod.Contact })),
   { loading: () => <SectionSkeleton />, ssr: true }
@@ -79,10 +85,14 @@ export default function Home() {
           <Certifications />
         </Suspense>
         <Suspense fallback={<SectionSkeleton />}>
+          <BlogPreview />
+        </Suspense>
+        <Suspense fallback={<SectionSkeleton />}>
           <Contact />
         </Suspense>
       </main>
       <Footer />
+      <BackToTop />
     </>
   );
 }

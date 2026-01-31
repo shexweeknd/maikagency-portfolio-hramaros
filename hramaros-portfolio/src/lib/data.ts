@@ -4,7 +4,7 @@ export const siteConfig = {
   title: "Développeur IA LLM | Full Stack | Problem Solver",
   description:
     "Portfolio de hramaros - Développeur passionné spécialisé en IA, LLM et Full Stack. Lauréat hackathons, étudiant 42 Antananarivo. Transforme les défis en solutions.",
-  url: "https://hramaros.dev",
+  url: "https://hramaros.maikagency.dev",
   ogImage: "/og-image.png",
   email: "ramarosandratananantenaina@gmail.com",
   phone: "+261 34 85 419 94",
@@ -12,7 +12,7 @@ export const siteConfig = {
   timezone: "GMT+3",
   links: {
     github: "https://github.com/shexweeknd",
-    linkedin: "https://linkedin.com/in/hramaros",
+    linkedin: "https://www.linkedin.com/in/nantenaina-ramarosandratana/",
   },
   philosophy:
     "Passionné d'informatique, je transforme les défis en solutions concrètes et durables pour créer de la valeur rapidement.",
@@ -192,5 +192,6 @@ export const navItems = [
   { name: "Projets", href: "#projects" },
   { name: "Parcours", href: "#timeline" },
   { name: "Certifications", href: "#certifications" },
+  { name: "Blog", href: "#blog" },
   { name: "Contact", href: "#contact" },
 ];

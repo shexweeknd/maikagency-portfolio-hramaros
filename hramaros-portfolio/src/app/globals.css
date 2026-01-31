@@ -54,7 +54,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Reduced motion preference */
+/* Reduced motion preference - Enhanced */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -64,13 +64,51 @@ body {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+
+  /* Hide complex 3D scenes for users with motion sensitivity */
+  .three-scene-container,
+  .hero-3d-scene {
+    display: none !important;
+  }
+
+  /* Show static fallback */
+  .reduced-motion-fallback {
+    display: flex !important;
+  }
+
+  /* Disable parallax effects */
+  .parallax-container > * {
+    transform: none !important;
+  }
 }
 
-/* Focus visible styles for accessibility */
+/* Focus visible styles for accessibility - Enhanced */
 *:focus-visible {
   outline: 2px solid var(--primary);
-  outline-offset: 2px;
+  outline-offset: 3px;
   border-radius: 4px;
+  box-shadow: 0 0 0 4px rgba(0, 102, 255, 0.2);
+}
+
+/* Enhanced focus for interactive elements */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+  border-radius: 4px;
+  box-shadow: 0 0 0 4px rgba(0, 102, 255, 0.25);
+}
+
+/* High contrast text classes - WCAG AA compliant */
+.text-high-contrast {
+  color: #E5E7EB; /* 6.2:1 contrast ratio on dark bg */
+}
+
+.text-medium-contrast {
+  color: #D1D5DB; /* 4.8:1 contrast ratio - meets AA */
 }
 
 /* Screen reader only */

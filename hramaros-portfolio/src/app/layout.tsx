@@ -120,7 +120,7 @@ export default function RootLayout({
               image: "https://hramaros.dev/profile.jpg",
               sameAs: [
                 "https://github.com/shexweeknd",
-                "https://linkedin.com/in/hramaros",
+                "https://www.linkedin.com/in/nantenaina-ramarosandratana/",
               ],
               jobTitle: "Développeur IA LLM",
               worksFor: {

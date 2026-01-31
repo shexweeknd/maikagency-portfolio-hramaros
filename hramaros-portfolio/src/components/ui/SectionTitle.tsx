@@ -2,16 +2,20 @@
 
 import { motion } from "framer-motion";
 
-interface SectionTitleProps {
+export interface SectionTitleProps {
   title: string;
   subtitle?: string;
   centered?: boolean;
+  id?: string;
+  gradient?: boolean;
 }
 
 export function SectionTitle({
   title,
   subtitle,
   centered = true,
+  id,
+  gradient = true,
 }: SectionTitleProps) {
   return (
     <motion.div
@@ -21,13 +25,20 @@ export function SectionTitle({
       transition={{ duration: 0.5 }}
       className={`mb-12 md:mb-16 ${centered ? "text-center" : ""}`}
     >
-      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-        <span className="bg-gradient-to-r from-primary-400 via-accent-400 to-primary-400 bg-clip-text text-transparent">
-          {title}
-        </span>
+      <h2 
+        id={id}
+        className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4"
+      >
+        {gradient ? (
+          <span className="bg-gradient-to-r from-primary-400 via-accent-400 to-primary-400 bg-clip-text text-transparent">
+            {title}
+          </span>
+        ) : (
+          <span className="text-white">{title}</span>
+        )}
       </h2>
       {subtitle && (
-        <p className="text-dark-500 text-lg md:text-xl max-w-2xl mx-auto">
+        <p className="text-dark-500 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
           {subtitle}
         </p>
       )}

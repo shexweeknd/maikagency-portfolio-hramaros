@@ -124,32 +124,15 @@ export function Hero() {
 
           {/* Text content */}
           <div className="text-center lg:text-left max-w-2xl">
-            {/* Badge */}
-            <motion.div variants={itemVariants} className="mb-6">
-              <motion.span 
-                whileHover={{ scale: 1.02 }}
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm cursor-default"
-              >
-                <motion.span 
-                  className="w-2 h-2 bg-green-500 rounded-full"
-                  animate={{ 
-                    scale: [1, 1.2, 1],
-                    opacity: [1, 0.8, 1],
-                  }}
-                  transition={{ duration: 2, repeat: Infinity }}
-                />
-                <span className="text-dark-600">Disponible pour de nouvelles opportunités</span>
-              </motion.span>
-            </motion.div>
 
             {/* Main heading */}
             <motion.h1 
               id="hero-title"
               variants={itemVariants} 
-              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6"
+              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 inline-flex "
             >
               <span className="block text-white mb-2">
-                {siteConfig.name.split(" ")[0]}
+                H.
               </span>
               <motion.span 
                 className="block text-gradient"
@@ -157,13 +140,13 @@ export function Hero() {
                 animate={{ backgroundPosition: ['0% center', '200% center', '0% center'] }}
                 transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
               >
-                {siteConfig.name.split(" ").slice(1).join(" ")}
+                RAMAROS
               </motion.span>
             </motion.h1>
 
             {/* Tagline */}
             <motion.div variants={itemVariants} className="mb-4">
-              <p className="text-xl sm:text-2xl md:text-3xl text-dark-600 font-light">
+              <p className="text-xl sm:text-2xl md:text-3xl text-dark-500 font-light leading-relaxed">
                 Du code aux solutions,{" "}
                 <span className="text-primary-400 font-normal">de Madagascar au monde</span>
               </p>
@@ -172,7 +155,7 @@ export function Hero() {
             {/* Subtitle with icons */}
             <motion.div variants={itemVariants} className="flex items-center gap-3 justify-center lg:justify-start mb-8">
               <Code2 className="w-5 h-5 text-primary-400" aria-hidden="true" />
-              <p className="text-lg md:text-xl text-dark-600">
+              <p className="text-lg md:text-xl text-dark-500">
                 {siteConfig.title}
               </p>
               <Sparkles className="w-5 h-5 text-accent-400" aria-hidden="true" />
@@ -203,7 +186,7 @@ export function Hero() {
                   <Terminal className="w-4 h-4 text-dark-500 ml-2" aria-hidden="true" />
                   <span className="text-dark-500 text-sm font-mono">hramaros@portfolio:~</span>
                 </div>
-                <p className="font-mono text-sm md:text-base text-dark-600">
+                                <p className="font-mono text-sm md:text-base text-dark-500">
                   <span className="text-primary-400">$</span>{" "}
                   <span className="text-green-400">echo</span>{" "}
                   <motion.span 
@@ -229,56 +212,42 @@ export function Hero() {
               variants={itemVariants}
               className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-12"
             >
+              {/* Social links with hover effects */}
               <motion.div
-                style={{ x: magnetic.springX, y: magnetic.springY }}
-                onMouseMove={magnetic.handleMouseMove}
-                onMouseLeave={magnetic.handleMouseLeave}
+                variants={itemVariants}
+                className="flex items-center justify-center lg:justify-start gap-6 pr-4"
               >
-                <Button size="lg" onClick={scrollToAbout} className="group">
-                  Découvrir mon parcours
-                  <motion.span
-                    animate={{ y: [0, 4, 0] }}
-                    transition={{ duration: 1.5, repeat: Infinity }}
+                {[
+                  { href: siteConfig.links.github, icon: Github, label: "GitHub" },
+                  { href: siteConfig.links.linkedin, icon: Linkedin, label: "LinkedIn" },
+                  { href: `mailto:${siteConfig.email}`, icon: Mail, label: "Email" },
+                ].map((social) => (
+                  <motion.a
+                    key={social.label}
+                    href={social.href}
+                    target={social.href.startsWith('mailto') ? undefined : "_blank"}
+                    rel={social.href.startsWith('mailto') ? undefined : "noopener noreferrer"}
+                    className="relative p-2 text-dark-500 hover:text-primary-400 transition-colors"
+                    aria-label={social.label}
+                    whileHover={{ scale: 1.1, y: -2 }}
+                    whileTap={{ scale: 0.95 }}
                   >
-                    <ArrowDown className="ml-2 w-5 h-5 group-hover:translate-y-1 transition-transform" />
-                  </motion.span>
-                </Button>
+                    <social.icon className="w-6 h-6 relative z-10" />
+                    <motion.div
+                      className="absolute inset-0 bg-primary-500/10 rounded-lg"
+                      initial={{ scale: 0, opacity: 0 }}
+                      whileHover={{ scale: 1, opacity: 1 }}
+                      transition={{ duration: 0.2 }}
+                    />
+                  </motion.a>
+                ))}
               </motion.div>
               <Button variant="outline" size="lg" onClick={scrollToContact}>
                 Me contacter
               </Button>
             </motion.div>
 
-            {/* Social links with hover effects */}
-            <motion.div
-              variants={itemVariants}
-              className="flex items-center justify-center lg:justify-start gap-6"
-            >
-              {[
-                { href: siteConfig.links.github, icon: Github, label: "GitHub" },
-                { href: siteConfig.links.linkedin, icon: Linkedin, label: "LinkedIn" },
-                { href: `mailto:${siteConfig.email}`, icon: Mail, label: "Email" },
-              ].map((social) => (
-                <motion.a
-                  key={social.label}
-                  href={social.href}
-                  target={social.href.startsWith('mailto') ? undefined : "_blank"}
-                  rel={social.href.startsWith('mailto') ? undefined : "noopener noreferrer"}
-                  className="relative p-2 text-dark-500 hover:text-primary-400 transition-colors"
-                  aria-label={social.label}
-                  whileHover={{ scale: 1.1, y: -2 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  <social.icon className="w-6 h-6 relative z-10" />
-                  <motion.div
-                    className="absolute inset-0 bg-primary-500/10 rounded-lg"
-                    initial={{ scale: 0, opacity: 0 }}
-                    whileHover={{ scale: 1, opacity: 1 }}
-                    transition={{ duration: 0.2 }}
-                  />
-                </motion.a>
-              ))}
-            </motion.div>
+            
           </div>
         </div>
       </motion.div>

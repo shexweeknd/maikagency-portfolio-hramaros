@@ -1,20 +1,28 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 
 interface PortraitPlaceholderProps {
   name: string;
   initials?: string;
   className?: string;
+  alt?: string;
 }
 
 export function PortraitPlaceholder({ 
   name, 
   initials = "HR",
-  className = "" 
+  className = "",
+  alt = "Portrait professionnel de Herinambinintsoa RAMAROSANDRATANA, développeur IA LLM à Madagascar"
 }: PortraitPlaceholderProps) {
+  const prefersReducedMotion = useReducedMotion();
+  
   return (
-    <div className={`relative ${className}`}>
+    <div 
+      className={`relative ${className}`}
+      role="img"
+      aria-label={alt}
+    >
       {/* Outer glow ring */}
       <motion.div
         className="absolute inset-0 rounded-full"
@@ -23,7 +31,7 @@ export function PortraitPlaceholder({
           filter: 'blur(20px)',
           opacity: 0.5,
         }}
-        animate={{
+        animate={prefersReducedMotion ? {} : {
           scale: [1, 1.1, 1],
           opacity: [0.3, 0.5, 0.3],
         }}

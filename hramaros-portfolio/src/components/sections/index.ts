@@ -4,4 +4,6 @@ export { Skills } from "./Skills";
 export { Projects } from "./Projects";
 export { Timeline } from "./Timeline";
 export { Certifications } from "./Certifications";
+export { Testimonials } from "./Testimonials";
+export { BlogPreview } from "./BlogPreview";
 export { Contact } from "./Contact";

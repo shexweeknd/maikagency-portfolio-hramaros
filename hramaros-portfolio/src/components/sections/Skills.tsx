@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useState, useEffect } from "react";
 import { SectionTitle, Card } from "@/components/ui";
 import { skills } from "@/lib/data";
 
@@ -41,7 +42,7 @@ function SkillBar({
           className="absolute inset-y-0 left-0 bg-gradient-to-r from-primary-500 to-accent-500 rounded-full"
         />
       </div>
-      <p className="text-dark-500 text-sm mt-1 opacity-0 group-hover:opacity-100 transition-opacity">
+      <p className="text-dark-600 text-sm mt-1 opacity-0 group-hover:opacity-100 transition-opacity">
         {context}
       </p>
     </motion.div>
@@ -73,7 +74,7 @@ function SoftSkillCard({
           </div>
           <div>
             <h4 className="font-semibold text-white mb-2">{name}</h4>
-            <p className="text-dark-500 text-sm">{illustration}</p>
+            <p className="text-dark-600 text-sm">{illustration}</p>
           </div>
         </div>
       </Card>
@@ -81,7 +82,56 @@ function SoftSkillCard({
   );
 }
 
+// Typing animation hook
+function useTypingAnimation(text: string, speed: number = 30, startDelay: number = 500) {
+  const [displayedText, setDisplayedText] = useState("");
+  const [isComplete, setIsComplete] = useState(false);
+  const [hasStarted, setHasStarted] = useState(false);
+
+  useEffect(() => {
+    const startTimer = setTimeout(() => {
+      setHasStarted(true);
+    }, startDelay);
+
+    return () => clearTimeout(startTimer);
+  }, [startDelay]);
+
+  useEffect(() => {
+    if (!hasStarted) return;
+
+    let currentIndex = 0;
+    const interval = setInterval(() => {
+      if (currentIndex < text.length) {
+        setDisplayedText(text.slice(0, currentIndex + 1));
+        currentIndex++;
+      } else {
+        setIsComplete(true);
+        clearInterval(interval);
+      }
+    }, speed);
+
+    return () => clearInterval(interval);
+  }, [text, speed, hasStarted]);
+
+  return { displayedText, isComplete, hasStarted };
+}
+
 function TerminalSkills() {
+  const command = "cat technical_stack.json";
+  const jsonContent = `{
+  "languages": ["Python", "C/C++", "JavaScript", "PHP", "SQL"],
+  "ai_ml": ["LLM Development", "Agentic Coding", "RAG", "Fine-tuning"],
+  "tools": ["Docker", "Linux", "N8N", "Git"],
+  "specialties": ["Web Scraping", "Design Patterns", "API Development"]
+}`;
+
+  const { displayedText: typedCommand, isComplete: commandComplete } = useTypingAnimation(command, 50, 800);
+  const { displayedText: typedJson, isComplete: jsonComplete } = useTypingAnimation(
+    commandComplete ? jsonContent : "",
+    15,
+    300
+  );
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -94,35 +144,45 @@ function TerminalSkills() {
         <div className="w-3 h-3 rounded-full bg-red-500" />
         <div className="w-3 h-3 rounded-full bg-yellow-500" />
         <div className="w-3 h-3 rounded-full bg-green-500" />
-        <span className="text-dark-500 text-sm ml-2 font-mono">skills.sh</span>
+        <span className="text-dark-600 text-sm ml-2 font-mono">skills.sh</span>
       </div>
 
       {/* Terminal content */}
       <div className="p-4 font-mono text-sm">
-        <div className="text-dark-500 mb-2">
+        <div className="text-dark-600 mb-2">
           <span className="text-green-400">hramaros@portfolio</span>
           <span className="text-white">:</span>
           <span className="text-primary-400">~/skills</span>
           <span className="text-white">$</span>
-          <span className="text-dark-600 ml-2">cat technical_stack.json</span>
+          <span className="text-dark-600 ml-2">{typedCommand}</span>
+          {!commandComplete && (
+            <span className="text-accent-400 animate-pulse">|</span>
+          )}
         </div>
         
-        <pre className="text-dark-600 overflow-x-auto">
-{`{
-  "languages": ["Python", "C/C++", "JavaScript", "PHP", "SQL"],
-  "ai_ml": ["LLM Development", "Agentic Coding", "RAG", "Fine-tuning"],
-  "tools": ["Docker", "Linux", "N8N", "Git"],
-  "specialties": ["Web Scraping", "Design Patterns", "API Development"]
-}`}
-        </pre>
+        {commandComplete && (
+          <motion.pre 
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            className="text-dark-600 overflow-x-auto"
+          >
+            {typedJson}
+          </motion.pre>
+        )}
 
-        <div className="text-dark-500 mt-4">
-          <span className="text-green-400">hramaros@portfolio</span>
-          <span className="text-white">:</span>
-          <span className="text-primary-400">~/skills</span>
-          <span className="text-white">$</span>
-          <span className="text-accent-400 ml-2 animate-pulse">_</span>
-        </div>
+        {jsonComplete && (
+          <motion.div 
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            className="text-dark-600 mt-4"
+          >
+            <span className="text-green-400">hramaros@portfolio</span>
+            <span className="text-white">:</span>
+            <span className="text-primary-400">~/skills</span>
+            <span className="text-white">$</span>
+            <span className="text-accent-400 ml-2 animate-pulse">_</span>
+          </motion.div>
+        )}
       </div>
     </motion.div>
   );
